@@ -1,15 +1,15 @@
 mktorrent builds for Windows
 ============================
 
-### mktorrent 1.0 builds (with Cygwin):
+### mktorrent 1.1 builds (with Cygwin):
 
   * **Windows downloads:**
-    * [mktorrent-1.0-win-32bit-build1.7z](https://github.com/clamsawd/mktorrent-win/releases/download/v1.0/mktorrent-1.0-win-32bit-build1.7z)
-    * [mktorrent-1.0-win-64bit-build1.7z](https://github.com/clamsawd/mktorrent-win/releases/download/v1.0/mktorrent-1.0-win-64bit-build1.7z)
+    * [mktorrent-1.1-win-32bit-build1.7z](https://github.com/q3aql/mktorrent-win/releases/download/v1.1/mktorrent-1.1-win-32bit-build1.7z)
+    * [mktorrent-1.1-win-64bit-build1.7z](https://github.com/q3aql/mktorrent-win/releases/download/v1.1/mktorrent-1.1-win-64bit-build1.7z)
   
   * **Source code:**
-    * [mktorrent-1.0.tar.bz2](https://github.com/clamsawd/mktorrent-win/releases/download/v1.0/mktorrent-1.0.tar.bz2)
-    * [mktorrent-1.0.tar.gz](https://github.com/clamsawd/mktorrent-win/releases/download/v1.0/mktorrent-1.0.tar.gz)
+    * [mktorrent-1.1.tar.bz2](https://github.com/q3aql/mktorrent-win/releases/download/v1.1/mktorrent-1.1.tar.bz2)
+    * [mktorrent-1.1.tar.gz](https://github.com/q3aql/mktorrent-win/releases/download/v1.1/mktorrent-1.1.tar.gz)
     
 _Note: The disks must be written with the format `/cygdrive/<letter>/`. For example, `C:` is `/cygdrive/c/`._
 
@@ -32,11 +32,11 @@ _Note: The disks must be written with the format `/cygdrive/<letter>/`. For exam
     * `Libs/openssl`
     * `Libs/openssl-devel`
 
-  * Download [mktorrent-1.0.tar.gz](https://github.com/clamsawd/mktorrent-win/releases/download/v1.0/mktorrent-1.0.tar.gz) and save it to `C:\Cygwin\home\<User>\`.
+  * Download [mktorrent-1.1.tar.gz](https://github.com/q3aql/mktorrent-win/releases/download/v1.1/mktorrent-1.1.tar.gz) and save it to `C:\Cygwin\home\<User>\`.
   * Open a Cygwin terminal, and run the following commands:
 
-    * `$ tar zxvf mktorrent-1.0.tar.gz`
-    * `$ cd mktorrent-1.0`
+    * `$ tar zxvf mktorrent-1.1.tar.gz`
+    * `$ cd mktorrent-1.1`
     * `$ make USE_PTHREADS=1 USE_OPENSSL=1 USE_LONG_OPTIONS=1 USE_LARGE_FILES=1 (32-bits)` 
     * `$ make USE_PTHREADS=1 USE_OPENSSL=1 USE_LONG_OPTIONS=1 (64-bits)` 
 
