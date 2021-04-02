@@ -1,0 +1,75 @@
+#!/bin/bash
+
+# Copy necessary tools for Cygwin/Windows version
+# After, you must copy all files to /bin directory
+mkdir -p ${HOME}/mktorrent/bin
+cd /usr/bin
+
+# All executables
+cp -rfv mktorrent.exe ${HOME}/mktorrent/bin
+cp -rfv bash.exe ${HOME}/mktorrent/bin
+cp -rfv bashbug ${HOME}/mktorrent/bin
+cp -rfv cat.exe ${HOME}/mktorrent/bin
+cp -rfv clear.exe ${HOME}/mktorrent/bin
+cp -rfv cut.exe ${HOME}/mktorrent/bin
+cp -rfv cygwin-console-helper.exe ${HOME}/mktorrent/bin
+cp -rfv date.exe ${HOME}/mktorrent/bin
+cp -rfv echo.exe ${HOME}/mktorrent/bin
+cp -rfv expr.exe ${HOME}/mktorrent/bin
+cp -rfv find.exe ${HOME}/mktorrent/bin
+cp -rfv ftp.exe ${HOME}/mktorrent/bin
+cp -rfv grep.exe ${HOME}/mktorrent/bin
+cp -rfv head.exe ${HOME}/mktorrent/bin
+cp -rfv ls.exe ${HOME}/mktorrent/bin
+cp -rfv md5sum.exe ${HOME}/mktorrent/bin
+cp -rfv mkdir.exe ${HOME}/mktorrent/bin
+cp -rfv mv.exe ${HOME}/mktorrent/bin
+cp -rfv cp.exe ${HOME}/mktorrent/bin
+cp -rfv rm.exe ${HOME}/mktorrent/bin
+cp -rfv rsync.exe ${HOME}/mktorrent/bin
+cp -rfv scp.exe ${HOME}/mktorrent/bin
+cp -rfv sed.exe ${HOME}/mktorrent/bin
+cp -rfv sleep.exe ${HOME}/mktorrent/bin
+cp -rfv ssh-add.exe ${HOME}/mktorrent/bin
+cp -rfv ssh-agent.exe ${HOME}/mktorrent/bin
+cp -rfv ssh-keygen.exe ${HOME}/mktorrent/bin
+cp -rfv ssh-keyscan.exe ${HOME}/mktorrent/bin
+cp -rfv ssh.exe ${HOME}/mktorrent/bin
+cp -rfv sshpass.exe ${HOME}/mktorrent/bin
+cp -rfv tail.exe ${HOME}/mktorrent/bin
+cp -rfv tr.exe ${HOME}/mktorrent/bin
+cp -rfv wc.exe ${HOME}/mktorrent/bin
+cp -rfv pwd.exe ${HOME}/mktorrent/bin
+cp -rfv mintty.exe ${HOME}/mktorrent/bin
+cp -rfv file.exe ${HOME}/mktorrent/bin
+cp -rfv ldd.exe ${HOME}/mktorrent/bin
+cp -rfv touch.exe ${HOME}/mktorrent/bin
+cp -rfv nano.exe ${HOME}/mktorrent/bin
+
+# All libraries
+cp -rfv cygwin1.dll ${HOME}/mktorrent/bin
+cp -rfv cygz.dll ${HOME}/mktorrent/bin
+cp -rfv cygattr-1.dll ${HOME}/mktorrent/bin
+cp -rfv cygcom_err-2.dll ${HOME}/mktorrent/bin
+cp -rfv cygcrypto-1.1.dll ${HOME}/mktorrent/bin
+cp -rfv cyggcc_s-1.dll ${HOME}/mktorrent/bin
+cp -rfv cygiconv-2.dll ${HOME}/mktorrent/bin
+cp -rfv cygintl-8.dll ${HOME}/mktorrent/bin
+cp -rfv cygreadline7.dll ${HOME}/mktorrent/bin
+cp -rfv cygncursesw-10.dll ${HOME}/mktorrent/bin
+cp -rfv cyggmp-10.dll ${HOME}/mktorrent/bin
+cp -rfv cygmagic-1.dll ${HOME}/mktorrent/bin
+cp -rfv cygbz2-1.dll ${HOME}/mktorrent/bin
+cp -rfv cygpcre-1.dll ${HOME}/mktorrent/bin
+cp -rfv cyglz4-1.dll ${HOME}/mktorrent/bin
+cp -rfv cygzstd-1.dll ${HOME}/mktorrent/bin
+cp -rfv cyggssapi_krb5-2.dll ${HOME}/mktorrent/bin
+cp -rfv cygk5crypto-3.dll ${HOME}/mktorrent/bin
+cp -rfv cygkrb5-3.dll ${HOME}/mktorrent/bin
+cp -rfv cygkrb5support-0.dll ${HOME}/mktorrent/bin
+
+# Strip libraries
+strip --strip-all ${HOME}/mktorrent/bin/*
+cp -rfv cygwin1.dll ${HOME}/mktorrent/bin
+cp -rfv cygz.dll ${HOME}/mktorrent/bin
+
