@@ -32,7 +32,7 @@ mktorrent builds for Windows (with Cygwin).
     * Libs/openssl-devel
     ````
 
-  * Download [mktorrent-1.1.tar.gz](https://github.com/q3aql/mktorrent-win/releases/download/v1.1/mktorrent-1.1.tar.gz) and save it to `C:\Cygwin\home\<User>\`.
+  * Download [mktorrent-1.1-git.tar.gz](https://github.com/q3aql/mktorrent-win/releases/download/v1.1-2/mktorrent-1.1-git.tar.gz) and save it to `C:\Cygwin\home\<User>\`.
   * Open a Cygwin terminal, and run the following commands:
 
     ```shell
