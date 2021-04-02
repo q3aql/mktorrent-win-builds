@@ -9,7 +9,7 @@ mktorrent builds for Windows (with Cygwin).
   
   * **Source code:**
     * [mktorrent-1.1-git.tar.bz2](https://github.com/q3aql/mktorrent-win/releases/download/v1.1-2/mktorrent-1.1.tar.bz2)
-    * [mktorrent-1.1-git-git.tar.gz](https://github.com/q3aql/mktorrent-win/releases/download/v1.1-2/mktorrent-1.1-git.tar.gz)
+    * [mktorrent-1.1-git.tar.gz](https://github.com/q3aql/mktorrent-win/releases/download/v1.1-2/mktorrent-1.1-git.tar.gz)
 
 ### How to install:
 
